@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        div{border:3px solid silver;
+            padding:10px; margin:10px 0; 
+            font-size:2em;}
+        .div1, .clickTest {cursor:pointer;}
+		.div4 {font-size:1em; width:200px; height:200px; overflow: auto;}
+        .btn{display:inline-block;
+            text-decoration:none; 
+            border:2px solid silver; border-radius:5px;
+            padding:10px 20px; color:black;}
+        .btn:hover, .btn:focus{border-color:red; color:red;}
+		
+    </style>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/event.js"></script>
+    <title>Event</title>
+</head>
+<body>
+    <h1>Event</h1>
+    <section>
+        <h2>click</h2>
+        <div class="div1">div1</div>
+    </section>
+    <section>
+        <h2>mouseenter/mouseleave/hover</h2>
+        <div class="div2">div2</div>
+        <div class="div3">div3</div>
+    </section>
+    <section>
+       <h2>focus/blur</h2>
+        <a class="btn" href="#">
+            버튼
+        </a>        
+    </section>
+	<section>
+        <h2>scroll</h2>
+            <div class="div4">
+            1. 동해물과 백두산이 마르고 닳도록 
+            하느님이 보우하사 우리나라 만세
+            무궁화 삼천리 화려 강산
+            대한 사람 대한으로 길이 보전하세
+            2. 남산 위에 저 소나무 철갑을 두른 듯 
+            바람 서리 불변함은 우리 기상일세
+            무궁화 삼천리 화려 강산 
+            대한 사람 대한으로 길이 보전하세
+            3. 가을 하늘 공활한데 높고 구름 없이 
+            밝은 달은 우리 가슴 일편단심일세
+            무궁화 삼천리 화려 강산
+            대한 사람 대한으로 길이 보전하세
+            4. 이 기상과 이 맘으로 충성을 다하여 
+            괴로우나 즐거우나 나라 사랑하세
+            무궁화 삼천리 화려 강산
+            대한 사람 대한으로 길이 보전하세</div>
+    </section>
+    <section>
+    	<h2>this</h2>
+    	<div class="clickTest">div</div>
+    	<div class="clickTest">div</div>
+    	<div class="clickTest">div</div>
+    	<div class="clickTest">div</div>
+    	<div class="clickTest">div</div>
+    	<div class="clickTest">div</div>
+    </section>
+    <section>
+    	<h2>each</h2>
+    	<div class='animal'>고양이</div>
+    	<div class='animal'>강아지</div>
+    	<div class='animal'>거북이</div>
+    	<div class='animal'>호랑이</div>
+    </section>
+</body>
+</html>
