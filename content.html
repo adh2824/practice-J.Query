@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<style>
+			div{font-size: 2em; border: 3px solid silver; padding: 10px; margin: 10px 0;}
+			img {display: block; border: 3px double olive; margin: 10px 0; padding: 10px;}
+			input, textarea {display: block; margin-bottom: 10px; width: 300px;}
+			textarea {height: 100px;}
+			.dashed {border-style: dashed;}
+			.notice {border-color: red;}
+		</style>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/content.js"></script>
+	</head>
+	<body>
+		<section class="at">
+			<h2>attr()</h2>
+				<button type="button" class="btn1">이미지1</button>
+				<button type="button" class="btn2">이미지2</button>
+				<button type="button" class="btn3">이미지3</button>
+				<button type="button" class="btn4">이미지4</button>
+				<button type="button" class="btn5">이미지5</button>
+				<img src="img/iphone1.jpg" alt="아이폰1">
+		</section>
+		<section>
+			<h2>val()</h2>
+			<input type="text" value="텍스트필드">
+			<textarea>텍스트영역</textarea>
+			<select class="city">
+				<option value="서울">서울</option>
+				<option value="인천">인천</option>
+				<option value="대전">대전</option>
+				<option value="제주">제주</option>
+				<option value="대구">대구</option>
+				<option value="전주">전주</option>
+			</select>
+			<select class="area" multiple size="6">
+				<option value="강남">강남</option>
+				<option value="양천">양천</option>
+				<option value="구로">구로</option>
+				<option value="관악">관악</option>
+				<option value="동작">동작</option>
+				<option value="강서">강서</option>
+			</select>
+		</section>
+		<section class="adc">
+			<h2>addClass() / removeClass() / toggleclass()</h2>
+			<button type="button" class="btn1">dashed 추가</button>
+			<button type="button" class="btn2">dashed 제거</button>
+			<button type="button" class="btn3">notice 추가</button>
+			<button type="button" class="btn4">notice 제거</button>
+			<button type="button" class="btn5">dashed 추가/제거</button>
+			<button type="button" class="btn6">notice 추가/제거</button>
+			<div>addClass() / removeClass() / toggleclass()</div>
+		</section>
+	</body>
+</html>
