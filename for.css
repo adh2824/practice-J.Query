@@ -1,0 +1,7 @@
+@charset "urf-8";
+
+.off div {width: 400px; height: 200px; line-height: 200px; background: pink; font-size: 2em; text-align: center;}
+.wheel {width: 600px; height: 400px; background: silver; font-size: 2em; text-align: center; line-height: 400px;}
+.gold {background: gold;}
+.blue {background: lightblue;}
+
