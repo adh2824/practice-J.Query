@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+section {border: 1px dashed silver; border-radius: 20px; padding: 10px; margin: 10px 0;}
+section:after {content: ""; display: block; clear: both;}
+h2 {margin-top: 0;}
+.slideshow {float: left; position: relative; width: 300px; height: 300px; margin-right: 5px;}
+.slideshow a {position: absolute; left: 0; top: 0;}
+.convert {display: none;}
+.bx-wrapper {width: 300px; margin-left: }
+.slider {margin: 0; padding: 0;}
+.bx-wrapper, .bx-caption {background: rgba(0,0,0,75);}
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover{background: #f00;}
