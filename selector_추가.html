@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<style>
+			div {border: 3px solid silver; padding: 10px; margin: 10px auto; font-size: 2em;}
+			.div1 {font-size: 1em;}
+			.div1, .div1 p, .div1 a {border: 3px solid silver;}
+		</style>
+		<script>
+			var lastName = '김'
+			var me = lastName + '정원';
+			var father = lastName + '아빠';
+			var sister = lastName + '언니';
+			var brother =lastName + '오빠';
+			alert(me);
+			alert(father);
+			alert(sister);
+			alert(brother);
+		</script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/selector.js"></script>
+		<title>셀렉터 : JQuery</title>
+	</head>
+	<body>
+		<h1>셀렉터</h1>
+		<section>
+			<h2>ID 셀렉터</h2>
+				<div id="div1">div1</div>
+		</section>
+		<section>
+			<h2>class 셀렉터</h2>
+				<div class="men">영희</div>
+				<div class="men">철수</div>
+				<div class="women">민희</div>
+				<div class="women">진희</div>
+				<div class="men">경수</div>
+				<div class="women">정민</div>
+		</section>
+		<section>
+			<h2>자손 셀렉터</h2>
+			<div>재미있는<span>JQuery</span>.</div>
+			<ul>
+				<li><span>JQuery</span>재미있어요.</li>
+				<li>재미있는<span>JQuery</span>.</li>
+			</ul>
+			<p><span>JQuery</span>재미있어요.</p>
+		</section>
+		<section>
+			<h2>좀 더 검색하기</h2>
+			<div class="wrap">wrap
+				<div class="div1">div1
+					<p>p1 <a href="#">텍스트1</a></p>
+					<p>p2 <a href="#">텍스트2</a></p>
+					<p>p3 <a href="#">텍스트3</a></p>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
