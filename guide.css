@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.val input, textarea {
+	display: block; margin-bottom; 10px; width: 300px;
+}
+textarea {height: 100px;}
+.guide {color: #ccc;}
+.lab div, .lab button {float: left;}
+.lab div {margin-right: 5px;}
+.lab button {margin-top: 2px; height: 44px;}
+.lab span {position: relative; display: block;}
+.lab label {position: absolute;font-size: 0.9em; color:#bbb; left: 2px; top: 1px;}

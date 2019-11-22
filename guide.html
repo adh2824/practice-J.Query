@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<!--
+		<script>
+			var a = 10;
+			var b = 3;
+			a+=b
+			alert(a);
+		</script>
+		-->
+		<link rel="stylesheet" href="css/guide.css">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/guide.js"></script>
+		<title>가이드텍스트 : JQuery</title>
+	</head>
+	<body>
+		<h1>가이드텍스트</h1>
+		<section class="age">
+			<h2>if문</h2>
+				<input type="text" placeholder="만 나이를 입력하세요.">
+				<button type="button">성인인증</button>
+		</section>
+		<section class="val">
+	    <h2>value 속성활용</h2>
+	    <form action="#" method="post">
+	        <label for="username">이름</label>
+	        <input id="username" class="guidetext" value="이름을 입력해주세요.">
+	        <label for="memo">메모</label>
+	        <textarea id="memo" class="guidetext">메세지를 입력해주세요.</textarea>
+	        <button type="button">전송</button>
+	    </form>
+	</section>
+	<section class="lab">
+		<h2>label 요소 활용</h2>
+		<form action="#" method="post">
+			<div>
+				<span><label for="userid">아이디</label><input type="text" id="userid"></span>
+				<span><label for="userpw">비밀번호</label><input type="text" id="userpw"></span>
+			</div>
+			<button type="submit">로그인</button>
+		</form>
+	</section>
+	</body>
+</html>
